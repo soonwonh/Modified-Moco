@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-"""moco_cifar10_demo
+"""moco_cifar10
 
 
 """
@@ -385,6 +385,7 @@ def train(net, data_loader,data_loader_2,data_loader_3,data_loader_4, train_opti
     net.train()
     adjust_learning_rate(optimizer, epoch, args)
 
+    # Stronger Augmentation as the training proceeds( in every 50 epochs )
     if epoch>150:
       total_loss, total_num, train_bar = 0.0, 0, tqdm(data_loader_4)
     elif epoch>100:
@@ -395,10 +396,8 @@ def train(net, data_loader,data_loader_2,data_loader_3,data_loader_4, train_opti
       total_loss, total_num, train_bar = 0.0, 0, tqdm(data_loader)
     
     for im_1, im_2 in train_bar:
-        # experiment 
+       
         # 512 x 32 x 32
-        #print(im_1.shape)
-        #print(im_1[0])
         im_1, im_2 = im_1.cuda(non_blocking=True), im_2.cuda(non_blocking=True)
         
         with torch.cuda.amp.autocast():
