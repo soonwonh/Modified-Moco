@@ -37,9 +37,9 @@ Specificaly, changes in the code are as follows.
    
 
 
-all the data gathered are in Excel file.
+all the data gathered are in Excel file, and optimal code so far is uploaded as MOCO-Augmented.py
 
-# future research
+# Future research
 
 1) Faster-Auto Augment
    
