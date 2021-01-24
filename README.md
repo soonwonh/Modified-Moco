@@ -22,8 +22,8 @@ Specificaly, changes in the code are as follows.
   
   
   
-  original baseline used pytorch library's transformation function, I changed it to Albumentations library for two reasons. 1. more diverse set , 2. more fast
-  if you use same set of augmentations, Albumentations library is (much) faster than pytorch library (see albumentations's documentations )
+    original baseline used pytorch library's transformation function, I changed it to Albumentations library for two reasons. 1. more diverse set , 2. more fast
+    if you use same set of augmentations, Albumentations library is (much) faster than pytorch library (see albumentations's documentations )
   
   
   
@@ -33,9 +33,9 @@ Specificaly, changes in the code are as follows.
 3) Gradual Augmentations
    
    
-   I increased hyperparameter in every 50 epochs ( i.e. stronger augmentations in every 50 epochs )
-   As the training proceed, model can classify most of input easily. Easy(low logits) sample doesn't contribute to the loss enough, so we make the model learn from 
-   harder(high logits) sample in every 50 epochs. This is related to hard negative mining / mixing problems. Also effect of 1) can be explained this way. 
+    I increased hyperparameter in every 50 epochs ( i.e. stronger augmentations in every 50 epochs )
+    As the training proceed, model can classify most of input easily. Easy(low logits) sample doesn't contribute to the loss enough, so we make the model learn from 
+    harder(high logits) sample in every 50 epochs. This is related to hard negative mining / mixing problems. Also effect of 1) can be explained this way. 
    
 
 
