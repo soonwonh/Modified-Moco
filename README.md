@@ -27,7 +27,7 @@ Specificaly, changes in the code are as follows.
   
 2) 4 transformations -> 6 transformations ( Additional transformations : Solarize , CLAHE )
 
-
+ 
 3) Gradual Augmentations
    
    
