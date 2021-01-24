@@ -12,6 +12,7 @@ I modified Augmentation Pipeline, which leads to 1.7% improvement upon baseline.
 I set other argument as default except for augmentation for clear comparison ( no mlp-head, no gaussian-blur , asymmetric loss )
 
 
+
 Specificaly, changes in the code are as follows.
 
 
@@ -48,15 +49,15 @@ all the data gathered are in Excel file, and optimal code so far is uploaded as 
    
  2) Loss modifications
    
-   modify loss to debias negative sample in the queue
+    modify loss to debias negative sample in the queue
    
  3) Imagenet Training
  
-   Apply these augmentation pipeline to Imagenet
+    Apply these augmentation pipeline to Imagenet
    
  4) SimCLR , BYOL , Swav
  
-   Apply these augmentations pipeline to other SOTA models
+    Apply these augmentations pipeline to other SOTA models
    
  5) Hard-negative mixing
  
