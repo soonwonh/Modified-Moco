@@ -5,17 +5,17 @@ This repo aims to improve upon Moco on CIFAR-10 datasets
 (baseline code can be accessed from https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb )
 
 
-I modified Augmentation Pipeline, which leads to 2.7% improvement upon baseline. (82.6% -> 85.3%)
+I modified Augmentation Pipeline, which leads to 2.4% improvement upon baseline. (82.6% -> 85.0%)
 
 
-This code achieves 85.3% accuracy within 200 epochs, while baseline code achieve 85.3% in 400 epochs( x2 )
+This code achieves 85.0% accuracy within 200 epochs, while baseline code achieve 85.3% in 400 epochs( ~ x2 )
 
 
-Also, use of new augmentation library (Albumentations) makes it possible to achieve 85.3% without computational overhead or additional training time.
+Also, use of new augmentation library (Albumentations) makes it possible to achieve 85.0% without additional training time.
 
 
 
-I set other argument as default except for augmentation for clear comparison ( no mlp-head, asymmetric loss )
+I set other argument as default except for augmentation for clear comparison ( no mlp-head, no-gaussian blur, asymmetric loss )
 
 
 
@@ -33,7 +33,7 @@ Specificaly, changes in the code are as follows.
   
   
   
-2) 4 transformations -> 9 transformations ( Additional transformations : Solarize , CLAHE, GaussianBlur, RandomBrightContrast, RandomBrightness )
+2) 4 transformations -> 7 transformations ( Additional transformations : Solarize , CLAHE, RandomBrightContrast )
 
  
 3) Gradual Augmentations
