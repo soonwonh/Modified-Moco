@@ -14,12 +14,7 @@ Baseline code :
 (one gpu) https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb 
 (n gpu) https://github.com/facebookresearch/moco.git
 
-
-I modified Augmentation Pipeline, which leads to 2.4% improvement upon baseline. (82.6% -> 85.0%)
-
-
-This code achieves 85.0% accuracy within 200 epochs, while baseline code achieve 85.3% in 400 epochs( ~ x2 )
-
+https://user-images.githubusercontent.com/77424795/118074702-71077c80-b3e9-11eb-8a37-6d54a4792a10.PNG
 
 Also, use of new augmentation library (Albumentations) makes it possible to achieve 85.0% without additional training time.
 
