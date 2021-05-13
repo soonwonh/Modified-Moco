@@ -17,7 +17,7 @@ We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
 
 ![aug](https://user-images.githubusercontent.com/77424795/118077509-2a1c8580-b3ef-11eb-9149-50de399c979d.png)  
 
-Downcrop : smaller hyper-parameter of RandomResizedCrop
+Downcrop : smaller hyper-parameter of RandomResizedCrop  
 aug+ : Solarize + CLAHE + RandomBrightness
 
 Additional changes: 1) Use of Albumentations library 2) Mixed Precision modifications (for one gpu code) 3) Implementations for Triple Crop (Triple_Crop.py)  
