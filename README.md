@@ -49,3 +49,6 @@ The solarize function cuts the information in the image in half by replacing pix
 
 ## Grad-CAM
 ![image](https://user-images.githubusercontent.com/77424795/118090290-5b538080-b404-11eb-9646-7534987b3e53.png)
+
+left two images are obtained from model trained with original augmentations, right two images are from our model trained with new augmentations(Downcrop / aug+)
+we can see that our augmentations forces model to look object more globally. Reduced and restricted information help model to see global features. and CLAHE functions make contrast between pixels more clearly, which leads to focusing on edge-detecting rather than high details( i.e. texture ) not suitable for contrastive loss.   
