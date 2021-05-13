@@ -30,6 +30,8 @@ additional changes: 1) Use of Albumentations library 2) Mixed Precision modifica
 
    
 # Result
-
+![CIFAR-10](https://user-images.githubusercontent.com/77424795/118076822-e1180180-b3ed-11eb-8cc7-61fcd924b0e1.png)
+![CIFAR-100](https://user-images.githubusercontent.com/77424795/118076830-e5441f00-b3ed-11eb-99ee-c2f665c719fe.png)
+![STL-10](https://user-images.githubusercontent.com/77424795/118076837-e9703c80-b3ed-11eb-8d31-29d7c842142b.png)
 # Analysis
 
