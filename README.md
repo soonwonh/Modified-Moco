@@ -28,6 +28,8 @@ Additional changes: 1) Use of Albumentations library 2) Mixed Precision modifica
 ![STL-10](https://user-images.githubusercontent.com/77424795/118076837-e9703c80-b3ed-11eb-8d31-29d7c842142b.png)
 ![Imagenet-100](https://user-images.githubusercontent.com/77424795/118077866-fa21b200-b3ef-11eb-8e29-ad77273653e1.png)
 
+![STL_chart](https://user-images.githubusercontent.com/77424795/118077945-20dfe880-b3f0-11eb-9334-5702402c0f61.png)
+![Imagenet_chart](https://user-images.githubusercontent.com/77424795/118077986-30f7c800-b3f0-11eb-8229-376c7ddd8e35.png)
 
 # Analysis
 
