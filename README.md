@@ -29,10 +29,19 @@ Additional changes: 1) Use of Albumentations library 2) Mixed Precision modifica
 ![CIFAR-10](https://user-images.githubusercontent.com/77424795/118076822-e1180180-b3ed-11eb-8cc7-61fcd924b0e1.png)
 ![CIFAR-100](https://user-images.githubusercontent.com/77424795/118076830-e5441f00-b3ed-11eb-99ee-c2f665c719fe.png)
 ![STL-10](https://user-images.githubusercontent.com/77424795/118076837-e9703c80-b3ed-11eb-8d31-29d7c842142b.png)
-![Imagenet-100](https://user-images.githubusercontent.com/77424795/118077866-fa21b200-b3ef-11eb-8e29-ad77273653e1.png)
-
+![Imagenet-100](https://user-images.githubusercontent.com/77424795/118077866-fa21b200-b3ef-11eb-8e29-ad77273653e1.png)  
+for training time & GPU memory consumption, we denoted relative value (and absolute value in parentheses)
 ![STL_chart](https://user-images.githubusercontent.com/77424795/118077945-20dfe880-b3f0-11eb-9334-5702402c0f61.png)
 ![Imagenet_chart](https://user-images.githubusercontent.com/77424795/118077986-30f7c800-b3f0-11eb-8229-376c7ddd8e35.png)
 
 # Analysis
 
+![image](https://user-images.githubusercontent.com/77424795/118088494-221a1100-b402-11eb-8e5d-459074acda32.png)
+![image](https://user-images.githubusercontent.com/77424795/118088573-39f19500-b402-11eb-8fd4-d7ce2d8a0002.png)
+from the contrastive loss of our result, we can plot Accuracy-Mutual Information graph as follows
+![image](https://user-images.githubusercontent.com/77424795/118088717-6f967e00-b402-11eb-9779-a56b38d07d6f.png)
+
+![image](https://user-images.githubusercontent.com/77424795/118088738-79b87c80-b402-11eb-9cc7-05ea38846d95.png)
+
+
+## Grad-CAM
