@@ -9,13 +9,11 @@ We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
 
 # Introduction
 
-Baseline code : 
+###Baseline code : 
 
 (one gpu) https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb 
 
-(n gpu) https://github.com/facebookresearch/moco.git
-
-
+(n gpu) https://github.com/facebookresearch/moco.git   
 
 original augmentations:
 
