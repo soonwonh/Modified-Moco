@@ -15,6 +15,7 @@ We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
 
 (n gpu) https://github.com/facebookresearch/moco.git   
 
+   
 
 original augmentations:
 
