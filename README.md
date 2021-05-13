@@ -14,7 +14,7 @@ Baseline code :
 (one gpu) https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb 
 
 (n gpu) https://github.com/facebookresearch/moco.git
- 
+
 
 original augmentations:
 
