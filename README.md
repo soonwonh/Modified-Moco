@@ -13,9 +13,9 @@ We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
 
 (one gpu) https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb 
 
-(n gpu) https://github.com/facebookresearch/moco.git
+(n gpu) https://github.com/facebookresearch/moco.git  
 
-### original augmentations:
+original augmentations:
 
 ![old_aug](https://user-images.githubusercontent.com/77424795/118074702-71077c80-b3e9-11eb-8a37-6d54a4792a10.PNG)
 
