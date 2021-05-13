@@ -21,18 +21,13 @@ We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
 
 ### Our augmentations
 
-Also, use of new augmentation library (Albumentations) makes it possible to achieve 85.0% without additional training time.
+![new aug](https://user-images.githubusercontent.com/77424795/118074708-7664c700-b3e9-11eb-9685-8f1c0d16fcf1.PNG)
 
-
+additional changes: 1) Use of Albumentations library 2) Mixed Precision modifications for one gpu code 3) Implementations for Triple Crop
 
 I set other argument as default except for augmentation for clear comparison ( no mlp-head, no-gaussian blur, asymmetric loss )
 
-
-
 Specificaly, changes in the code are as follows.
-
-
-
 
 1) Use of Albumentations library
   
@@ -44,16 +39,6 @@ Specificaly, changes in the code are as follows.
   
   
 2) 4 transformations -> 7 transformations ( Additional transformations : Solarize , CLAHE, RandomBrightContrast )
-
- 
-3) Gradual Augmentations
-   
-   
-    I increased hyperparameter of Colorjitter() in every 50 epochs ( i.e. stronger augmentations in every 50 epochs )
-    As the training proceed, model can classify most of input easily. Easy(low logits) sample doesn't contribute to the loss enough, so we make the model learn from 
-    harder(high logits) sample in every 50 epochs. This is related to hard negative mining / mixing problems. Also effect of 1) can be explained this way. 
-   
-
 
 all the data gathered are in Excel file, and optimal code so far is uploaded as MOCO-Augmented.py
 
