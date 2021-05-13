@@ -15,11 +15,12 @@ We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
 
 (n gpu) https://github.com/facebookresearch/moco.git  
 
-![aug](https://user-images.githubusercontent.com/77424795/118077509-2a1c8580-b3ef-11eb-9149-50de399c979d.png)
+![aug](https://user-images.githubusercontent.com/77424795/118077509-2a1c8580-b3ef-11eb-9149-50de399c979d.png)  
 
-additional changes: 1) Use of Albumentations library 2) Mixed Precision modifications (for one gpu code) 3) Implementations for Triple Crop (Triple_Crop.py)
+Additional changes: 1) Use of Albumentations library 2) Mixed Precision modifications (for one gpu code) 3) Implementations for Triple Crop (Triple_Crop.py)  
 
-### Examples:
+### Examples:  
+
 ![cat](https://user-images.githubusercontent.com/77424795/118076617-7ebf0100-b3ed-11eb-86d2-e476a1c40d5a.png)
 
    
