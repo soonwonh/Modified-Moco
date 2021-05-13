@@ -16,6 +16,7 @@ Baseline code :
 (n gpu) https://github.com/facebookresearch/moco.git
 
 original augmentations:
+
 ![old_aug](https://user-images.githubusercontent.com/77424795/118074702-71077c80-b3e9-11eb-8a37-6d54a4792a10.PNG)
 
 Also, use of new augmentation library (Albumentations) makes it possible to achieve 85.0% without additional training time.
