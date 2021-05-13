@@ -1,8 +1,18 @@
-# Modified-Moco
+# In Summary
 
-This repo aims to improve upon Moco on CIFAR-10 datasets
+This repo focuses on better augmentation for contrastive learning
 
-(baseline code can be accessed from https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb )
+Just small changes in augmentations can lead to significant performance improvement.
+
+We worked with Moco-v1 on 4 dataset( CIFAR-10, CIFAR-100, STL-10, ImageNet-100 )
+
+
+# Introduction
+
+Baseline code : 
+
+(one gpu) https://colab.research.google.com/github/facebookresearch/moco/blob/colab-notebook/colab/moco_cifar10_demo.ipynb 
+(n gpu) https://github.com/facebookresearch/moco.git
 
 
 I modified Augmentation Pipeline, which leads to 2.4% improvement upon baseline. (82.6% -> 85.0%)
